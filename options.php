@@ -466,6 +466,13 @@ function optionsframework_options() {
 		'id' => 'bili',
 		'std' => '',
 		'type' => 'text');
+	
+	$options[] = array(
+		'name' => __('YouTuBe', 'options_framework_theme'),
+		'desc' => __('YouTuBe地址', 'options_framework_theme'),
+		'id' => 'youtube',
+		'std' => '',
+		'type' => 'text');
 
 	$options[] = array(
 		'name' => __('优酷视频', 'options_framework_theme'),

@@ -37,6 +37,9 @@ $bg_style = akina_option('focus_height') ? 'background-position: center center;b
 		<?php if (akina_option('bili')){ ?>
 		<li><a href="<?php echo akina_option('bili', ''); ?>" target="_blank" class="social-bili" title="bilibili"><img src="<?php bloginfo('template_url'); ?>/images/sns/bilibili.png"/></a></li>
 		<?php } ?>
+				<?php if (akina_option('youtube')){ ?>
+		<li><a href="<?php echo akina_option('youtube', ''); ?>" target="_blank" class="social-YouTuBe" title="youtube"><img src="<?php bloginfo('template_url'); ?>/images/sns/youtube.png"/></a></li>
+		<?php } ?>
 		<?php if (akina_option('youku')){ ?>
 		<li><a href="<?php echo akina_option('youku', ''); ?>" target="_blank" class="social-youku" title="youku"><img src="<?php bloginfo('template_url'); ?>/images/sns/youku.png"/></a></li>
 		<?php } ?>
